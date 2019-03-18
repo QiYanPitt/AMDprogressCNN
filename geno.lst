@@ -1,3 +1,6 @@
+# This is the SNP order if the 52 SNPs are used in the classification. 
+# Two copies of minor allele is 2; one copy of minor allele is 1; no copy of minor allele is 0.
+SNP_MinorAllele
 rs187328863_T
 rs148553336_C
 rs570618_G
