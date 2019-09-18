@@ -1,3 +1,9 @@
+# Operating systems: Ubuntu
+# Software: Python(3.6.8)
+# Required packages: argparse(1.1), numpy(1.15.4), keras(2.2.4), PIL(5.4.1), scipy(1.2.0), matplotlib(3.0.2) and vis.visualization
+# No non-standard hardware is required
+# Ready to use. No need to install.
+
 # Use fundus image to classify whether the late AMD progression time is before or after 3 years 
 python code_img2amdState2time.py --cutoff_yr 3 --input_image test1.jpg --out_file output.txt --weights "/directory/weights"
 
@@ -7,3 +13,4 @@ python code_img2amdState2time_saliency.py --cutoff_yr 3 --input_image test1.jpg 
 # Use fundus image and 52 reported SNPs to predict whether the late AMD progression time is before or after 3 years
 python code_imgNgeno2amdState2time.py --cutoff_yr 3 --input_image test1.jpg --input_geno input.geno --out_file output.txt --weights "/directory/weights"
 
+# Expected run time should be seconds.
