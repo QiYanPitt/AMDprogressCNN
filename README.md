@@ -1,4 +1,7 @@
 &copy; *2020 University of Pittsburgh All Rights Reserved*
+# Updates
+URL is changed to http://54.242.15.216/calculator/
+
 # AMDprogressCNN
 ## Use fundus image to classify whether the late AMD progression time is before or after 3 years
     python code_img2amdState2time.py --cutoff_yr 3 --input_image test1.jpg --out_file output.txt --weights "/directory/weights"
