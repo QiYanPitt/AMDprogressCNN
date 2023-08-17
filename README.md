@@ -1,6 +1,6 @@
 &copy; *2020 University of Pittsburgh All Rights Reserved*
 # Updates
-URL is changed to http://54.242.15.216/calculator/
+URL is changed to http://52.90.194.108/calculator/
 
 # AMDprogressCNN
 ## Use fundus image to classify whether the late AMD progression time is before or after 3 years
